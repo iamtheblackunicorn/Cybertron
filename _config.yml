@@ -19,7 +19,7 @@ iconUrlIsAbsolute: true
 siteManifest: "https://blckunicorn.art/assets/cybertron/manifest.json"
 144x144: "https://blckunicorn.art/assets/cybertron/ms-icon-144x144.png"
 future: true
-baseurl: "/cybertron"
+baseurl: "/Cybertron"
 url: "https://blckunicorn.art/cybertron"
 plugins:
   - jekyll-feed

@@ -1,9 +1,13 @@
 source "https://rubygems.org"
-gem "jekyll"
 gem "sassc"
-gem "jekyll-feed"
-gem "jekyll-seo-tag"
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
+gem "jekyll"
 gem "github-pages"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "webrick"
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]

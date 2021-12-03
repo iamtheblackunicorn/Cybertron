@@ -1,5 +1,6 @@
 ---
 layout: page
+show: true
 title:  "How to use this theme"
 bannerURLIsAbsolute: true
 banner: "https://blckunicorn.art/assets/buwa/main/images/16.jpg"

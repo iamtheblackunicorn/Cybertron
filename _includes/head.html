@@ -34,7 +34,11 @@
   {% endif %}
   <meta charset=UTF-8"/>
   {% if page.layout == 'page' && page.banner %}
+  {% if page.bannerURLIsAbsolute == true %}
+  <meta property="og:image" content="{{ page.banner }}"/>
+  {% else %}                                                                             
   <meta property="og:image" content="{{ page.banner | prepend: site.baseurl }}"/>
+  {% endif %}                                                                             
   <meta property="og:image:type" content="image/jpg"/>
   <meta property="og:image:type" content="image/png"/>
   {% else %}

@@ -14,7 +14,7 @@ The other day I saw a video by an Australian web developer talking about amazing
 
 ## Live Demo :fireworks:
 
-A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/cybertron).
+A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/Cybertron).
 
 ## Features :test_tube:
 
@@ -22,7 +22,6 @@ A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/cyb
 - Clean, modern design for mobile and desktop devices.
 - Search Engine Optimization (SEO).
 - Google Analytics.
-- Monetization for everyone.
 
 ## Getting Started :hammer:
 
@@ -122,7 +121,7 @@ Your configuration lives in this file. The list below explains every setting.
 - `plugins`:
   - `jekyll-remote-theme`: Allows us to use themes from a GitHub repository.
   - `jekyll-feed`: Handles the Atom RSS feed.
-  - `jekyll-seo-tag`: Handles SEO
+  - `jekyll-seo-tag`: Handles SEO.
   - `jekyll-paginate`: Pagination on the blog page.
   - `jekyll-sitemap`: Makes a sitemap of your site. SEO relevant.
   - `jekyll-gist`: Helps with code-snippets.
@@ -209,10 +208,11 @@ banner: "https://blckunicorn.art/assets/buwa/main/images/18.jpg"
 description: An example post about how to get started with Jekyll!
 date:   2021-11-12 14:24:12 +0100
 ---
+
 Your blog post contents goes here.
 ```
 
-The posts work exactly the same as the 404 page with the exception that we need to add a description, a date, and a `show`variable. This variable lets you turn posts on or off by setting the `show` variable to either `true` or `false`.
+The posts work exactly the same as the 404 page with the exception that we need to add a description, a date, and a `show` variable. This variable lets you turn posts on or off by setting the `show` variable to either `true` or `false`.
 
 #### Index
 
@@ -266,7 +266,7 @@ To add this page to your navigation file, you would create an entry like this:
 
 #### Final words
 
-This is the end of the "Getting Started" guide. If you have any questions, open an issue and I will try to help you.
+This is the end of the "Getting Started" guide. If you have any questions, open an issue and I will try to help you. If you want to generate favicons for your site and fill the icon variables in your site's `_config.yml`, I recommend using [this tool](https://www.favicon-generator.org/).
 
 ### Deployment :rocket:
 

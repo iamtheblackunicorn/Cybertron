@@ -1,5 +1,6 @@
 ---
 layout: page
+show: true
 title:  "Ramblings about Cybertron"
 bannerURLIsAbsolute: true
 banner: "https://blckunicorn.art/assets/buwa/main/images/19.jpg"

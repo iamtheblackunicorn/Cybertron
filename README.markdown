@@ -202,6 +202,7 @@ Let's have a look at making our own custom blog post.
 ```markdown
 ---
 layout: page
+show: true
 title:  "Welcome to Jekyll!"
 bannerURLIsAbsolute: true
 banner: "https://blckunicorn.art/assets/buwa/main/images/18.jpg"
@@ -211,7 +212,7 @@ date:   2021-11-12 14:24:12 +0100
 Your blog post contents goes here.
 ```
 
-The posts work exactly the same as the 404 page with the exception that we need to add a description and a date.
+The posts work exactly the same as the 404 page with the exception that we need to add a description, a date, and a `show`variable. This variable lets you turn posts on or off by setting the `show` variable to either `true` or `false`.
 
 #### Index
 

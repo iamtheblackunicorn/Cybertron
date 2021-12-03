@@ -1,5 +1,6 @@
 ---
 layout: page
+show: true
 title:  "Fun facts: Jekyll"
 bannerURLIsAbsolute: true
 banner: "https://blckunicorn.art/assets/buwa/main/images/23.jpg"

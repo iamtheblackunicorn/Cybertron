@@ -7,7 +7,8 @@
   {% for post in site.posts %}
   {% assign value=forloop.index | modulo:2 %}
   {% if value == 0 %}
-
+  
+  {% if post.show == true %}
   <div class="contentPreviewLeft">
    <div class="contentBannerContainerLeft">
      {% if post.bannerURLIsAbsolute == true %}
@@ -24,9 +25,12 @@
     <a class="contentLinkBlack" href="{{ post.url | prepend: site.baseurl }}">{{ site.viewText }} &#8594;</a>
    </div>
   </div>
+  {% else %}
+  {% endif %}
 
    {% else %}
-
+   
+   {% if post.show == true %}
    <div class="contentPreviewRight">
     <div class="contentBannerContainerRight">
      {% if post.bannerURLIsAbsolute == true %}
@@ -43,6 +47,8 @@
      <a class="contentLinkWhite" href="{{ post.url | prepend: site.baseurl }}">{{ site.viewText }} &#8594;</a>
     </div>
    </div>
+   {% else %}
+   {% endif %}
 
    {% endif %}
    {% endfor %}

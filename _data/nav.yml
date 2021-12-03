@@ -1,8 +1,9 @@
 - name: "Home"
+  urlNotRelative: false
   url: "/"
-- name: "Link 2"
-  url: "https://google.com"
-- name: "Link 3"
-  url: "https://google.com"
-- name: "Link 4"
-  url: "https://google.com"
+- name: "About"
+  urlNotRelative: false
+  url: "/about"
+- name: "Source"
+  urlNotRelative: true
+  url: "https://github.com/iamtheblackunicorn/Cybertron"

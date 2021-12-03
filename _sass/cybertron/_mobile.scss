@@ -60,23 +60,23 @@
     left: 0;
   }
   h1 {
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 10px;
   }
   h2 {
     padding: 7px;
-    font-size: 15px;
+    font-size: 20px;
     color: $accentColor;
   }
   p {
     padding: 7px;
-    font-size: 12px;
+    font-size: 17px;
   }
   svg {
     display: inline-block;
     float: right;
-    padding-top: 10px;
-    padding-right: 10px;
+    padding-top: 26px;
+    padding-right: 20px;
   }
   svg.closeButton {
     display: inline-block;
@@ -86,7 +86,7 @@
   }
   a.navLink {
     padding: 10px;
-    font-size: 15px;
+    font-size: 25px;
   }
   a.navLink:hover {
     padding-left: 10px;
@@ -108,6 +108,7 @@
     width: 50vw;
   }
   h2.contentTitleBlack {
+    margin-top: 50px;
     padding: 7px;
     font-size: 15px;
     margin-left: 10px;
@@ -127,14 +128,15 @@
     padding: 9px;
   }
   h2.contentTitleWhite {
+    margin-top: 50px;
     padding: 7px;
     font-size: 15px;
     margin-left: 10px;
   }
   p.contentDescriptionWhite {
-    padding: 7px;
+    padding-bottom: 7px;
     font-size: 12px;
-    margin-left: 7px;
+    margin-left:7px;
   }
   a.contentLinkWhite {
     padding: 7px;
@@ -147,5 +149,24 @@
   }
   code {
     font-size: 12px;
+  }
+  h2.pageTitle {
+    padding-top: 5%;
+    font-size: 20px;
+    color: $accentColor;
+  }
+  a {
+    font-size: 17px;
+  }
+  span.pageBanner{
+    padding-left: 23%;
+    padding-top: 27%;
+    font-size: 60px;
+  }
+  li {
+    font-size: 17px;
+    overflow-wrap: break;
+    color: $accentColor;
+    font-family: $tertiaryFont;
   }
 }

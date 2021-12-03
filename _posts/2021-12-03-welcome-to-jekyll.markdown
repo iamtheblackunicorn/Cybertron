@@ -1,15 +1,22 @@
 ---
 layout: page
-title:  "Welcome to Jekyll!"
+title:  "Fun facts: Jekyll"
 bannerURLIsAbsolute: true
-banner: "https://blckunicorn.art/assets/images/posts/02.jpg"
-description: An example post about how to get started with Jekyll!
+banner: "https://blckunicorn.art/assets/buwa/main/images/23.jpg"
+description: Fun facts about the Jekyll CMS.
 date:   2021-12-03 14:24:12 +0100
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Here are some fun facts I got from Wikipedia about Jekyll. Don't tell your teachers or prof about Wikipedia being a serious source of information. *wink* *wink*
 
-`YEAR-MONTH-DAY-title.MARKUP`
+- It was developed by Tom Preston-Werner and a couple others.
+- The first release was published in 2008.
+- It is open source and licensed under the MIT license.
+- Jekyll is written in Ruby.
+- Jekyll is awesome and really cute.
+- The latest is version 4.2.0.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Sources
+
+- Wikipedia. [https://en.wikipedia.org/](https://en.wikipedia.org/wiki/Jekyll_(software)).
+- Me. [https://blckunicorn.art](https://blckunicorn.art).

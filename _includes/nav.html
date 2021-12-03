@@ -5,7 +5,11 @@
   </svg>
   <div class="navLinks">
     {% for item in site.data.nav %}
+    {% if item.urlNotRelative == true %}
+    <a class="navLink" href="{{ item.url }}">{{ item.name }}</a>
+    {% else %}
     <a class="navLink" href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+    {% endif %}
     {% endfor %}
   </div>
 </div>

@@ -6,16 +6,20 @@
   {% include menu.html %}
 
   <div class="left">
-   {% if page.bannerURLIsAbsolute == true %}
-    <img class="banner" src="{{ page.banner }}"/>
+   {% if page.banner %}
+    {% if page.bannerURLIsAbsolute == true %}
+     <img class="banner" src="{{ page.banner }}"/>
+    {% else %}
+     <img class="banner" src="{{ page.banner | prepend: site.baseurl }}"/>
+    {% endif %}
    {% else %}
-    <img class="banner" src="{{ page.banner | prepend: site.baseurl }}"/>
+    <span class="pageBanner">{{ page.title }}</span>
    {% endif %}
   </div>
 
   </div class="right">
     <div class="content">
-     <h2>{{ page.title }}</h2>
+     <h2 class="pageTitle">{{ page.title }}</h2>
      {{ content }}
    </div>
  </div>

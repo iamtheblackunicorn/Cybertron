@@ -1,15 +1,10 @@
 ---
 layout: page
-title:  "Welcome to Jekyll!"
+title:  "How to use this theme"
 bannerURLIsAbsolute: true
-banner: "https://blckunicorn.art/assets/images/posts/02.jpg"
-description: An example post about how to get started with Jekyll!
+banner: "https://blckunicorn.art/assets/buwa/main/images/16.jpg"
+description: A small usage guide to this Jekyll theme.
 date:   2021-11-19 14:24:12 +0100
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+If you want to know more about this theme, click on the "Source" link in the navigation section. In the so-called "README" I explain what features this theme has, how to get started, what you need to get everything up and running, and how you can customize this theme to your liking and individual needs.

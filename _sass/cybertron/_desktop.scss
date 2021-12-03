@@ -23,9 +23,9 @@ div.menuRibbon {
   width: 100vw;
   background-color: $mainColor;
   position: sticky;
-  -webkit-box-shadow:0px 3px 3px $mainColor;
- -moz-box-shadow:0px 3px 3px $mainColor;
- box-shadow:0px 3px 3px $mainColor;
+  -webkit-box-shadow:0px 3px 3px $tertiaryColor;
+  -moz-box-shadow:0px 3px 3px $tertiaryColor;
+  box-shadow:0px 3px 3px $tertiaryColor;
 }
 div.content {
   text-overflow:clip;
@@ -72,7 +72,7 @@ h2 {
 }
 p {
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   color: $accentColor;
   font-family: $tertiaryFont;
 }
@@ -116,6 +116,7 @@ a.navLink {
   padding: 10px;
   font-size: 25px;
   color: $mainColor;
+  font-family: $stdFont;
   transition-duration: 0.6s;
 }
 a.navLink:hover {
@@ -247,18 +248,36 @@ code {
   background-color: $accentColor;
   font-size: 18px;
 }
-h2.footer {
+h2.pageTitle {
   padding-top: 5%;
-  padding-left: 30px;
-  font-size: 25px;
-  color: $mainColor;
+  font-size: 35px;
+  color: $accentColor;
 }
-div.footer {
-  margin: 0;
-  left: 0;
-  right: 0;
-  width: 100vw;
-  height: 20vh;
-  background-color: $accentColor;
-  text-align: left;
+a {
+  font-size: 20px;
+  color: $accentColor;
+  font-family: $tertiaryFont;
+  transition-duration: 0.6s;
+}
+a:hover {
+  color: $tertiaryColor;
+}
+span.pageBanner{
+  display: inline-block;
+  text-align: center;
+  padding-left: 35%;
+  padding-top: 10%;
+  color: $mainColor;
+  font-size: 80px;
+  font-family: $stdFont;
+}
+
+ul {
+  list-style: decimal;
+}
+
+li {
+  font-size: 20px;
+  color: $accentColor;
+  font-family: $tertiaryFont;
 }

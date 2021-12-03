@@ -1,5 +1,6 @@
 ---
 layout: page
+show: true
 title:  "Welcome to Jekyll!"
 bannerURLIsAbsolute: true
 banner: "https://blckunicorn.art/assets/buwa/main/images/18.jpg"

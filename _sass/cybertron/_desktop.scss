@@ -271,13 +271,27 @@ span.pageBanner{
   font-size: 80px;
   font-family: $stdFont;
 }
-
 ul {
   list-style: decimal;
 }
-
 li {
   font-size: 20px;
   color: $accentColor;
+  font-family: $tertiaryFont;
+}
+div.footer {
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  height: 10vh;
+  background-color: $accentColor;
+}
+p.footer {
+  padding-top: 20px;
+  font-size: 15px;
+  color: $mainColor;
   font-family: $tertiaryFont;
 }

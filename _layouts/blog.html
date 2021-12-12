@@ -7,7 +7,7 @@
   {% for post in site.posts %}
   {% assign value=forloop.index | modulo:2 %}
   {% if value == 0 %}
-  
+
   {% if post.show == true %}
   <div class="contentPreviewLeft">
    <div class="contentBannerContainerLeft">
@@ -29,7 +29,7 @@
   {% endif %}
 
    {% else %}
-   
+
    {% if post.show == true %}
    <div class="contentPreviewRight">
     <div class="contentBannerContainerRight">
@@ -52,6 +52,7 @@
 
    {% endif %}
    {% endfor %}
+  {% include footer.html %}
   {% include javascript.html %}
  </body>
 </html>
